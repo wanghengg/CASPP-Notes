@@ -5,6 +5,6 @@ int any_odd_one(unsigned x) {
 }
 
 int main() {
-    printf("%d\n", any_odd_one(0x8));
+    printf("%d\n", any_odd_one(1011));
     return 0;
 }
