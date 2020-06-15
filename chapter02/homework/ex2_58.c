@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
 
-typedef unsigned char *byte_pointer;
-
 int is_little_endian(void) {
     int32_t i = 1;
     unsigned char *p = (unsigned char *) &i;
