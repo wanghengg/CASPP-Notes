@@ -41,6 +41,7 @@ int main() {
     unsigned u = (unsigned )tu;
     // 强制类型转换二进制位值不变，只是转换方式发生变化
     printf("v = %u, uv = %d\n", u, tu);
+    show_int(tu);
 
     short sx = -12345;
     unsigned short ux = sx;
